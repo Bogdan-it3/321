@@ -1,0 +1,47 @@
+/* Скидання стилів за замовчуванням */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Стилізація body */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стилізація header */
+.header {
+    background-color: lightblue;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;  /* Горизонтальне вирівнювання ліворуч */
+    align-items: center;          /* Вертикальне вирівнювання по центру */
+}
+
+/* Стилізація main */
+.main {
+    background-color: lightgreen;
+    height: 40vh;
+    display: flex;
+    justify-content: center;      /* Горизонтальне вирівнювання по центру */
+    align-items: center;          /* Вертикальне вирівнювання по центру */
+}
+
+/* Стилізація footer */
+.footer {
+    background-color: lightcoral;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;    /* Горизонтальне вирівнювання праворуч */
+    align-items: center;          /* Вертикальне вирівнювання по центру */
+}
+
+/* Стилізація тексту */
+.text {
+    font-size: 24px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
